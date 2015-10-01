@@ -1,3 +1,3 @@
 FROM andrewosh/binder-base
 
-RUN conda install -y jupyter
+RUN conda remove -y ipython
